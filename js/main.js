@@ -35,7 +35,8 @@ function closeNav(){
     $(".main-nav").animate({"left": -mainNavWidth },1000)
 $(".open-close-nav").animate({"left": "0px" },1000)
 $(".menu-icon").html(`<i class="fa fa-align-justify"></i>`)
-$(".main-nav ul a").css("opacity","0")
+$(".main-nav ul li").css("padding-top", "500px" )
+$(".main-nav ul li").css("opacity", "0" )
 }
 
 
